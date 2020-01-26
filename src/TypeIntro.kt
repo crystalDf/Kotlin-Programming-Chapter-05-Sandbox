@@ -11,9 +11,13 @@ fun main(args: Array<String>) {
     val gold: Int = 50
     val menu: List<String> = listOf("mead", "wine", "LaCroix")
 
+    val numLetters = "Mississippi".count { letter -> letter == 's' }
+
     experiencePoints += 5
 
     println(experiencePoints)
     println(playerName)
     println(playerName.reversed())
+
+    println(numLetters)
 }
